@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1.При загрузке страницы задается два вопроса:
+    Как тебя зовут? Какого ты года рождения? И с помощью алерта выводится сообщение с именем и возрастом. Например, если пользователь ответил "Юра" и "1989" то выводится "Юра 28" -->
+
+
+    <script>
+        var name = prompt('Как тебя зовут?');
+        var age = +prompt('Сколько тебе лет?');
+        alert(name +':' + (2020 - age));
+    </script>
+
+    <!-- 2.Ввести с клавиатуры 3 переменные (a, b, c). Привести их все в число. Выполнить операцию суммирования всех переменных. Определить среднее арифметическое трех чисел. Вывести результат в консоль. -->
+
+    <script>
+        var a = +prompt('Введите число');
+        var b = +prompt('Введите число');
+        var c = +prompt('Введите число');
+        var sum = a+b+c;
+        var midArifm = sum/3;
+        console.log(midArifm);
+    </script>
+</body>
+</html>
