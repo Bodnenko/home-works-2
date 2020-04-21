@@ -6,23 +6,9 @@
 
 // Если в массиве встречается массив, то нужно сделать вложенный список.
 
-// document.body.onload = generateList;
 
-// function generateList(arr) {
-    //     var newUl = document.createElement("ul");
-    //     document.body.appendChild(newUl);
-    //     for(var i = 0; i < arr.length; i++) {
-        //        var newLi = document.createElement("li");
-        //        newLi.innerHTML = "<h2>" + arr[i] + "</h2>";
-        //        newUl.appendChild(newLi);
-        
-        //        if(Array.isArray(array[i])) {
-            //            console.log('yes');
-            //        }
-            //     }
-            
-            // }
-            // generateList(array);
+
+
             
 var array = [1,[2,3,4,5],3,[1,2,3],4,6];
 
@@ -50,20 +36,10 @@ function generateList(arr) {
 generateList(array);
 
 
-// document.write ('<table>'); // открываем таблицу
-// var num = 1; //  запоминаем число для вывода в первую ячейку
-// for var ro = 0; ro < 10; ro++) // циклом перебираем десять строк таблицы
- 
-//     {
-//     document.write ('<tr>'); // открываем строку
-//     for (var ce = 0; ce < 10; ce++) // циклом перебираем десять ячеек в каждой строке
-//         {
-//         document.write ('<td>' + num++ + '</td>'); // создаём ячейку, прописывая в неё число, которое после записи увеличиваем на единицу
-//         }
-//     document.write ('</tr>); // закрываем строку
-//    }
-// document.write ('</table>'); // закрываем таблицу
-/////////////////////////////////////////////////////////////
+
+// Вывести таблицу 10 × 10, заполненную числами от 1 до 100
+
+
 function getTable() {
     var table = document.createElement("table");
     var num = 1;
